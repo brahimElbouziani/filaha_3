@@ -3482,7 +3482,7 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    width: 110%;
+    width: 100%;
     padding: 2.5rem 0.5rem;
 }
 
@@ -3496,7 +3496,7 @@ p {
 
 .hero-header .-logo {
     float: left;
-    width: 40%;
+    width: 30%;
 }
 
 @media screen and (max-width: 60em) {
@@ -3531,7 +3531,7 @@ p {
 
 .hero-header .-cta {
     float: right;
-    width: 60%;
+    width: 70%;
     text-align: right;
 }
 
