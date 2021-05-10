@@ -1,146 +1,250 @@
-.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
 }
-.row 
-{
+
+.row {
     margin-left: -15px;
-	margin-right: -15px;
-	max-width: unset;
+    margin-right: -15px;
+    max-width: unset;
 }
-@media (min-width: 768px)
-{
-	.col-sm-4 {
-		width: 33.33333333%;
-	}
+
+@media (min-width: 768px) {
+    .col-sm-4 {
+        width: 33.33333333%;
+    }
 }
-@media (min-width: 768px)
-{
-.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
-    float: left;
+
+@media (min-width: 768px) {
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9 {
+        float: left;
+    }
 }
+
+@media (min-width: 768px) {
+    .col-sm-4 {
+        width: 33.33333333%;
+    }
 }
-@media (min-width: 768px)
-{
-.col-sm-4 {
-    width: 33.33333333%;
-}
-}
-.container, .container-fluid {
+
+.container,
+.container-fluid {
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
-@media (min-width: 1200px)
-{
-.container {
-    width: 1170px;
-}
-}
-@media (min-width: 992px)
-{
-.container {
-    width: 970px;
-}
-}
-@media (min-width: 768px)
-{
-.container {
-    width: 750px;
-}
-}
-.img-responsive
-{
-	max-width: 100%;
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
 }
 
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
 
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+.img-responsive {
+    max-width: 100%;
+}
 
 .box1:hover {
-
-	transform: translateY(-10px);
-	box-shadow: 0px 10px 35px 15px rgba(52, 52, 52, 0.2);
-	display: inline-block;
-		transition: transform 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);   
- 
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 35px 15px rgba(52, 52, 52, 0.2);
+    display: inline-block;
+    transition: transform 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
-
-
-
- 
-
-   
-
-
 
 .logo_ta7t1 {
-	float: left;
-   width: 5%;
-	padding-top: 0.5rem;
-   }
-	@media screen and (max-width: 60em) {
-	  .logo_ta7t1 {
-		visibility: hidden;
-	   
-	  } }
-	@media screen and (max-width: 40em) {
-	  .logo_ta7t1 {
-		visibility: hidden; } }
-  
-		.logo_ta7t1 a {
-	  display: inline-block;
-	  transition: transform 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
-	  
-	  .logo_ta7t1 a:hover {
-		transform: translateY(-5px); }
-  
-		.logo_ta7t1 svg { 
-	  height: 7.5734375rem;
-	  fill: #f5f4f4; }
-  
-  
+    float: left;
+    width: 5%;
+    padding-top: 0.5rem;
+}
 
-.box1
-{
+@media screen and (max-width: 60em) {
+    .logo_ta7t1 {
+        visibility: hidden;
+    }
+}
 
- 
-	
+@media screen and (max-width: 40em) {
+    .logo_ta7t1 {
+        visibility: hidden;
+    }
+}
 
-	margin-bottom: 30px;
-	background-color: #fff;
-	padding:15px;
-	border-radius: 10px;
+.logo_ta7t1 a {
+    display: inline-block;
+    transition: transform 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.logo_ta7t1 a:hover {
+    transform: translateY(-5px);
+}
+
+.logo_ta7t1 svg {
+    height: 7.5734375rem;
+    fill: #f5f4f4;
+}
+
+.box1 {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
     box-shadow: 0 0 16px #0000001a;
 }
-.box1 p
-{
-	min-height: 420px;
 
-	text-align: justify;
+.box1 p {
+    min-height: 420px;
+    text-align: justify;
 }
-.box1 h3
-{
-	min-height: 10px;
-	font-size: 24px;
-	padding-bottom: 10px;
+
+.box1 h3 {
+    min-height: 10px;
+    font-size: 24px;
+    padding-bottom: 10px;
 }
-.logo-stp
-{
-	height: 250px;
-	width: 100%;
-	margin-bottom: 15px;
+
+.logo-stp {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
 }
-.logo-stp img
-{
-	object-fit: contain;
-	object-position: center center;
-	width: 100%;
-	height: 100%;
+
+.logo-stp img {
+    object-fit: contain;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
 }
-.pad30
-{
-	padding: 162px 0px;
+
+.pad30 {
+    padding: 162px 0px;
+}
+
+.ribbon {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.ribbon::before,
+.ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #2b8145;
+}
+
+.ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 15px 0;
+    background-color: #2b8145;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    color: #fff;
+    font: 700 18px/1 'Lato', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ribbon-top-right {
+    top: -10px;
+    right: -10px;
+}
+
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+}
+
+.ribbon-top-right::before {
+    top: 0;
+    left: 0;
+}
+
+.ribbon-top-right::after {
+    bottom: 0;
+    right: 0;
+}
+
+.ribbon-top-right span {
+    left: -25px;
+    top: 30px;
+    transform: rotate(45deg);
 }
