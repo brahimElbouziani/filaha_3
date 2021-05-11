@@ -1457,7 +1457,7 @@ button::-moz-focus-inner {
     margin-top: -55px;
     padding: 0;
     width: 90px;
-    height: 110px;
+    height: 100px;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -3354,12 +3354,12 @@ p {
     font-weight: bold;
     background: #0dbc42;
     color: #fafafa;
-    border: 2px solid #fafafa;
 }
 
 .button--hollow--inverted:hover {
     background: #fafafa;
     color: #0dbc42;
+    border: 2px solid #fafafa;
 }
 
 
@@ -3482,7 +3482,7 @@ p {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 110%;
     padding: 2.5rem 0.5rem;
 }
 
@@ -3496,7 +3496,7 @@ p {
 
 .hero-header .-logo {
     float: left;
-    width: 30%;
+    width: 40%;
 }
 
 @media screen and (max-width: 60em) {
@@ -3531,7 +3531,7 @@ p {
 
 .hero-header .-cta {
     float: right;
-    width: 70%;
+    width: 60%;
     text-align: right;
 }
 
@@ -3643,8 +3643,7 @@ p {
 
 .hero-footer .-social {
     float: right;
-    width: 39%;
-    text-align: right;
+    width: 65%;
     font-size: 0.75rem;
     font-weight: 600;
 }
@@ -3672,7 +3671,7 @@ p {
 
 .hero-footer .-counter a {
     display: block;
-    padding: 0.3125rem 0rem;
+    padding: 0.9rem 0.9rem;
     transition: transform 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
@@ -4424,4 +4423,8 @@ screen and (min-width: 40em) {
 
 .footer-content .-copyright {
     color: rgba(52, 52, 52, 0.5);
+}
+
+a:link {
+    text-decoration: none;
 }
