@@ -3459,6 +3459,8 @@ p {
     width: 19.6953125rem;
     height: 7.2734375rem;
     fill: #343434;
+    position: center;
+    margin-top: 300px;
 }
 
 @media screen and (max-height: 630px) {
@@ -3532,6 +3534,7 @@ p {
     float: right;
     width: 50%;
     text-align: right;
+    margin-top: 1px;
 }
 
 @media screen and (max-width: 40em) {
