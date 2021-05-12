@@ -1457,7 +1457,7 @@ button::-moz-focus-inner {
     margin-top: -55px;
     padding: 0;
     width: 90px;
-    height: 100px;
+    height: 110px;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -1631,8 +1631,8 @@ img.mfp-img {
 @media screen and (max-width: 800px) and (orientation: landscape),
 screen and (max-height: 300px) {
     /**
-       * Remove all paddings around the image on small screen
-       */
+         * Remove all paddings around the image on small screen
+         */
     .mfp-img-mobile .mfp-image-holder {
         padding-left: 0;
         padding-right: 0;
@@ -1809,7 +1809,7 @@ screen and (max-height: 300px) {
 
 
 /* =Base styles
--------------------------------------------------------------- */
+  -------------------------------------------------------------- */
 
 
 /* Resets */
@@ -3164,7 +3164,7 @@ html.ie10::before {
 
 
 /* =Typography
--------------------------------------------------------------- */
+  -------------------------------------------------------------- */
 
 
 /* Headings */
@@ -3307,7 +3307,7 @@ p {
 
 
 /* =Buttons
--------------------------------------------------------------- */
+  -------------------------------------------------------------- */
 
 
 /* Buttons */
@@ -3354,17 +3354,17 @@ p {
     font-weight: bold;
     background: #0dbc42;
     color: #fafafa;
+    border: 2px solid #fafafa;
 }
 
 .button--hollow--inverted:hover {
     background: #fafafa;
     color: #0dbc42;
-    border: 2px solid #fafafa;
 }
 
 
 /* =Layout Specific
--------------------------------------------------------------- */
+  -------------------------------------------------------------- */
 
 .basic {
     background-image: url("../images/basic/hero/Asset3.png");
@@ -3387,7 +3387,7 @@ p {
 
 
 /* =Sections
--------------------------------------------------------------- */
+  -------------------------------------------------------------- */
 
 
 /* Hero */
@@ -3459,8 +3459,6 @@ p {
     width: 19.6953125rem;
     height: 7.2734375rem;
     fill: #343434;
-    position: center;
-    margin-top: 300px;
 }
 
 @media screen and (max-height: 630px) {
@@ -3481,6 +3479,7 @@ p {
 .hero-header,
 .hero-banner,
 .hero-footer {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -3534,7 +3533,6 @@ p {
     float: right;
     width: 50%;
     text-align: right;
-    margin-top: 1px;
 }
 
 @media screen and (max-width: 40em) {
@@ -3600,11 +3598,12 @@ p {
 
 .hero-footer {
     top: auto;
-    bottom: -40px;
+    bottom: -80px;
 }
 
 .hero-footer .-counter {
     float: left;
+    margin-top: 100px;
     width: 22%;
     font-size: 0.75rem;
     font-weight: 600;
@@ -3622,9 +3621,6 @@ p {
         width: 100%;
         padding-right: 1.25rem;
         text-align: center;
-    }
-    #titre_qualif {
-        display: none;
     }
 }
 
@@ -3645,7 +3641,8 @@ p {
 
 .hero-footer .-social {
     float: right;
-    width: 65%;
+    width: 39%;
+    text-align: right;
     font-size: 0.75rem;
     font-weight: 600;
 }
@@ -3673,7 +3670,7 @@ p {
 
 .hero-footer .-counter a {
     display: block;
-    padding: 0.9rem 0.9rem;
+    padding: 0.3125rem 0rem;
     transition: transform 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
